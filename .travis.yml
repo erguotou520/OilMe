@@ -1,0 +1,5 @@
+language: go
+branch:
+  only:
+    - ci
+script: go run bee.go
