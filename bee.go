@@ -93,6 +93,8 @@ func sendServer(url string, data map[string][]string) error {
 func init() {
 	apiURL = os.Getenv("API_URL")
 	serverURL = os.Getenv("SERVER_URL")
+	log.Print(apiURL)
+	log.Print(serverURL)
 }
 
 func main() {
